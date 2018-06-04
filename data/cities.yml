@@ -1,0 +1,7 @@
+- name: 'shanghai'
+  desc: 'Amazing place'
+- name: 'berlin'
+  desc: 'Amazing too'
+- name: 'buenos aires'
+  desc: 'Amazing too'
+
