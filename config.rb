@@ -16,6 +16,11 @@ configure :build do
   set :relative_links, true
 end
 
+["papillard", "ssaunier", "monsieurpaillard"].each do |name|
+  proxy "/flats/#{name}.html", "/flats/show.html", locals: { owner: name }, ignore: true
+end
+
+
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git

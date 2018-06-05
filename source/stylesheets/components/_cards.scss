@@ -48,3 +48,69 @@
   opacity: 0.1;
 }
 
+.card-sm {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.card-bl {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 15px;
+  }
+  i {
+    color: yellow;
+  }
+}
+
+.container {
+  background-color: $white;
+  // height: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rowper {
+  // width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.card-book {
+  display: block;
+  h2 {
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.book-c {
+  padding: 20px;
+  display: block;
+  width: 400px;
+  background-color: $grey;
+}
+
+.form-group {
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn-book {
+  background-color: $red;
+  margin-top: 5px;
+  width: 340px;
+}
